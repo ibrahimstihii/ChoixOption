@@ -1,17 +1,16 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace ChoixOption
 {
      class Etudiant
     {
-        string nome , prenom ;
+        string nome;
         int moyen ;
         string Choix1 ,Choix2,Choix3;
-        bool Acceptable =false;
-        public Etudiant(string c_nome ,string c_prenom ,int c_moyen , string c_Choix1 ,string c_Choix2,string c_Choix3)
+        string choixValide ;
+        public Etudiant(string c_nome ,int c_moyen , string c_Choix1 ,string c_Choix2,string c_Choix3)
         {
             nome = c_nome;
-            prenom = c_prenom;
             moyen = c_moyen;
             Choix1 = c_Choix1;
             Choix2 = c_Choix2;
@@ -29,18 +28,16 @@ namespace ChoixOption
          {
              return Choix3;
          }
-         void setAcceptable(bool b)
+         void setChoixValide(string choix)
           {
-              Acceptable = b;
+              choixValide = choix;
           }
     }
-    abstract class Option
+     class Option
     {
-        string OptionNam;
-        Etudiant[] Candidat = new Etudiant[60];
-        Etudiant[] CandidatAccepte = new Etudiant[20];
-        Option (Etudiant[] C_Candidat = new Etudiant[60]);//affecte un tableau trie
-        void setCandidatAccepte(); 
+        List<Etudiant> ABD = new List<Etudiant>();
+        List<Etudiant> ASR = new List<Etudiant>();
+        List<Etudiant> GL = new List<Etudiant>(); 
     }
     class Program
     {

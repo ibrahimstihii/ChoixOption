@@ -1,4 +1,3 @@
-C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.csprojAssemblyReference.cache
 C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.AssemblyInfoInputs.cache
 C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.AssemblyInfo.cs
 C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.csproj.CoreCompileInputs.cache
@@ -11,3 +10,5 @@ C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\bin\Debug\netcoreap
 C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.dll
 C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.pdb
 C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.genruntimeconfig.cache
+C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.csproj.AssemblyReference.cache
+C:\Users\BRAHIM STIHI\Desktop\EST\S3\C#\Exercice\ChoixOption\obj\Debug\netcoreapp3.1\ChoixOption.GeneratedMSBuildEditorConfig.editorconfig
