@@ -69,7 +69,7 @@ public class Option
             ABD AbdOption = new ABD(20);
             GL GlOption = new GL(20);
             ASR AsrOption = new ASR(20);
-            
+
             for (int i=0;i<Candidat.Count();i++)
             {
                 switch(Candidat[i].getChoix1())
@@ -104,7 +104,7 @@ public class Option
                                 break;
                          }
                            
-                     }
+                     }break;
                      case "ASR" :
                        if(AsrOption.capasite>AsrOption.CandidatAccepte.Count()){
                          AsrOption.SetCandidat(Candidat[i]);
@@ -122,6 +122,7 @@ public class Option
                                    AsrOption.SetCandidat(Candidat[i]);
                                    Candidat[i].setChoixValide("ABD"); 
                                 }
+                                break;
                              case "ABD":
                                 if(AbdOption.capasite>AbdOption.CandidatAccepte.Count()){
                                    AbdOption.SetCandidat(Candidat[i]);
@@ -131,8 +132,9 @@ public class Option
                                    GlOption.SetCandidat(Candidat[i]);
                                    Candidat[i].setChoixValide("GL"); 
                                 }
+                                break;
                          }
-
+                        break;
                      case "GL" :
                        if(GlOption.capasite>GlOption.CandidatAccepte.Count()){
                         GlOption.SetCandidat(Candidat[i]);
@@ -150,6 +152,7 @@ public class Option
                                    AsrOption.SetCandidat(Candidat[i]);
                                    Candidat[i].setChoixValide("ABD"); 
                                 }
+                                break;
                              case "ABD":
                                 if(AbdOption.capasite>AbdOption.CandidatAccepte.Count()){
                                    AbdOption.SetCandidat(Candidat[i]);
@@ -159,7 +162,9 @@ public class Option
                                    AsrOption.SetCandidat(Candidat[i]);
                                    Candidat[i].setChoixValide("ASR"); 
                                 }
+                               break;
                          }
+                         break;
                 }
             }
         }
